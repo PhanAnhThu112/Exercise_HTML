@@ -1,0 +1,157 @@
+.head {
+  margin: auto;
+  display: flex;
+  float: row;
+  background: #6699FF;
+  width: 2000px;
+  height: 150px;
+  padding: 10px 0;
+}
+
+.logo {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 20% 80%;
+
+}
+
+.content-left {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+}
+
+h1 {
+  line-height: 150px;
+  padding-left: 30px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.camera {
+  text-align: center;
+  line-height: 30px;
+  background: white;
+  width: 100%;
+}
+
+.sub-menu li {
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+  position: relative;
+}
+
+.sub-menu li:first-child {
+  border-top: 1px solid black;
+}
+
+.content-left h4 {
+  padding: 20px 0;
+}
+
+.camera img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.menu {
+  background-color: black;
+  padding-left: 50px;
+  display: flex;
+  height: 40px;
+}
+
+.menu1 {
+  display: flex;
+  gap: 30px;
+  height: 30px;
+  list-style-type: none;
+  line-height: 40px;
+  position: relative;
+}
+
+.menu1 li {
+  color: rgb(255, 255, 255);
+}
+
+.menu1 li:hover {
+  color: rgb(57, 219, 7);
+}
+.add-button{
+  background-color:#FF6699;
+  border-radius: 100px;
+  cursor: pointer;
+  border-color: #FF6699;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.sub-menu ul.sub-menu{
+  position: absolute;
+  background-color:pink;
+  padding: 15px,0px;
+  list-style: none;
+  width: 150px;
+  left: 200px;
+  top: 10px;
+  border-color: aliceblue;
+  display: none;
+  cursor:pointer;
+  border-color: #FF6699;
+  text-align: center;
+  color: black;
+}
+.sub-menu li:hover ul.sub-menu{
+  display: block;
+}
+
+.sub-menu li:hover {
+  color: rgb(57, 219, 7);
+}
+
+.sub-menu li{
+  border: 1px solid black;
+}
+
+
+
+
+.menu1 ul.sub-menu1{
+  position: absolute;
+  background-color:moccasin;
+  padding: 10px,0px;
+  list-style: none;
+  width: 100px;
+  margin-top: 10px;
+  border-color: aliceblue;
+  display: none;
+  cursor:pointer;
+  text-align: center;
+  border: 1px solid black;
+}
+.sub-menu1 li {
+  border: 1px solid black;
+}
+.menu1 li:hover ul.sub-menu1{
+  display: block;
+}
