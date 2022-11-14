@@ -1,7 +1,6 @@
 .head {
   margin: auto;
   display: flex;
-  float: row;
   background: #6699FF;
   width: 2000px;
   height: 150px;
@@ -26,6 +25,9 @@
   border-right: 1px solid black;
 
 }
+.content-left h4 {
+  padding: 20px 0;
+}
 
 .name {
   font-size: 20px;
@@ -40,7 +42,7 @@ h1 {
 
 .products {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
   gap: 10px;
 }
 
@@ -59,10 +61,6 @@ h1 {
 
 .sub-menu li:first-child {
   border-top: 1px solid black;
-}
-
-.content-left h4 {
-  padding: 20px 0;
 }
 
 .camera img {
@@ -138,7 +136,7 @@ h1 {
 
 .menu1 ul.sub-menu1{
   position: absolute;
-  background-color:moccasin;
+  background-color:white;
   padding: 10px,0px;
   list-style: none;
   width: 100px;
